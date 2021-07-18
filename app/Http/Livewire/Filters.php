@@ -27,7 +27,7 @@ class Filters extends Component
     {
         $this->post_caption = $post_caption;
         $this->image_path = $image_path;
-
+/*
         $this->correctImageOrientation($this->image_path,IMG_FILTER_NEGATE, $this->filter1, null, null, null, null, 0);
         $this->correctImageOrientation($this->image_path,IMG_FILTER_GRAYSCALE, $this->filter2,null,null,null,null,0);
         $this->correctImageOrientation($this->image_path,IMG_FILTER_EMBOSS, $this->filter3,null,null,null,null,0);
@@ -41,7 +41,7 @@ class Filters extends Component
         $this->correctImageOrientation($this->image_path,IMG_FILTER_SMOOTH, $this->filter11,20,null,null,null,1);
         $this->correctImageOrientation($this->image_path,IMG_FILTER_PIXELATE, $this->filter12,50,true,null,null,2);
         $this->correctImageOrientation($this->image_path,IMG_FILTER_CONTRAST, $this->filter13,80,null,null,null,1);
-
+*/
     }
 
     public function applyFilter($num)
